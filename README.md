@@ -13,7 +13,7 @@ than  "ConnectionStrings": { "StudentCon": "Server=(localdb)\\MSSQLLocalDB; data
 After building thn uncomment all the comment code  and run.
 </br>
 </br>
-*New file run process- 
+#New file run process- 
 </br>
 get (ASP.NET core Empty)
 </br>
