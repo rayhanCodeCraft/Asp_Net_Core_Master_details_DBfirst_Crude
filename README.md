@@ -17,9 +17,14 @@ After building thn uncomment all the comment code  and run.
 </br>
 get (ASP.NET core Empty)
 </br>
-pakage- 1. Microsoft.EntityFrameworkCore(8.0.0)
-	2. Microsoft.EntityFrameworkCore.SqlServer(8.0.0)
-	3. Microsoft.EntityFrameworkCore.Tools(8.0.0)
+Install Update Pakage---
+pakage- 1. Microsoft.EntityFrameworkCore
+	2. Microsoft.EntityFrameworkCore.SqlServer
+	3. Microsoft.EntityFrameworkCore.Tools
+ 	4.Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation(and go to program.cs folder than add this builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+)
+  </br>
+  
 create-wwwroot folder >>add>> clientside Library, 
 </br>
 Than create database in visual studio own sql, thn past this(Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;database=ExamDB;Trusted_Connection=true;TrustServerCertificate=true;Integrated Security=true " Microsoft.EntityFrameworkCore.SqlServer -outputDir Models) in pakage manager consol, 
