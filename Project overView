@@ -100,14 +100,15 @@ Follow these steps to run the project from the ZIP file:
 5. **Scaffold Database Context:**
    - Open the Package Manager Console and run the following command to scaffold the database context:
      ```bash
-     Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;database=ExamDB;Trusted_Connection=true;TrustServerCertificate=true;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+     Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;database=DemoDB25;Trusted_Connection=true;TrustServerCertificate=true;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
      ```
 
 6. **Update `appsettings.json`:**
    - In the `appsettings.json` file, add or update the connection string as follows:
      ```json
      "ConnectionStrings": {
-       "StudentCon": "Server=(localdb)\\MSSQLLocalDB;database=ExamPrac;Trusted_Connection=true;TrustServerCertificate=true;MultipleActiveResultSets=true;"
+       "StudentCon": "Server=(localdb)\\MSSQLLocalDB;database=DemoDB25;Trusted_Connection=true;TrustServerCertificate=true;MultipleActiveResultSets=true;"
      }
      ```
 
