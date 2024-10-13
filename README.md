@@ -1,7 +1,7 @@
 # ASP.NET Core Master-Details Database First CRUD Application
 
 ![Project Screenshot 1](https://github.com/rayhanCodeCraft/Asp_Net_Core_Master_details_DBfirst_Crude/blob/main/Screenshot%202024-10-06%20231510.png)
-![Project Screenshot 2](Screenshot 2024-10-06 231543.png)
+![Project Screenshot 2](https://github.com/rayhanCodeCraft/Asp_Net_Core_Master_details_DBfirst_Crude/blob/main/Screenshot%202024-10-06%20231543.png)
 
 ## Overview
 
